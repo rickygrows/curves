@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Curves</title>
+
+		<link rel="stylesheet" type="text/css" href="css/global.css">
+
+		<script type="text/javascript" src="js/libs/require/require.min.js"></script>
+		<script type="text/javascript" src="js/libs/easel/easeljs-NEXT.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready( function() {
+				require(["main"], function(Main){
+					Main.init();
+				});
+			});
+		</script>
+
+	</head>
+
+	<body>
+
+		<canvas id="easelCanvas"></canvas>
+
+		<script type="text/javascript" src="js/modules/require.config.js"></script>
+	</body>
+
+</html>
